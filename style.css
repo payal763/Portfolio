@@ -1,0 +1,154 @@
+* Common styles */
+
+/* Styles for screens up to 768px wide (tablets) */
+@media only screen and (max-width: 768px) {
+  /* Responsive styles here */
+}
+
+/* Styles for screens up to 480px wide (mobile phones) */
+@media only screen and (max-width: 480px) {
+  /* Responsive styles here */
+}/* Main Background Color */
+body {
+  background-color: #a3d5a6; /* Garden Green */
+  color: #6e6e6e; /* Gray */
+  font-family: "Times New Roman", serif;
+}
+
+/* Top Container */
+/* Top Container */
+/* CSS */
+#proo {
+  color: #purple;
+  font-size: 200%;
+}
+
+/* Top Container */
+.top-container {
+  background-color: #bde5f5; /* Light Blue */
+  padding-top: 30px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+h1 {
+  color: #434343; /* Dark Gray */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
+  margin: 50px auto 0 auto;
+}
+
+p {
+  color: #7e7e7e; /* Light Gray */
+  line-height: 1.6;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+/* Middle Container */
+/* Middle Container */
+.middle-container {
+  background-color: #f5f0eb; /* Nude */
+  margin-top: -20px; /* Adjusted to remove space and match color with top container */
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+h2 {
+  color: #434343; /* Dark Gray */
+  font-family: "Times New Roman", sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.intro {
+  margin: auto;
+  width: 50%;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+hr {
+  border-color: #7e7e7e; /* Light Gray */
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 5%;
+}
+
+h3 {
+  color: #434343; /* Dark Gray */
+  font-family: "Times New Roman", sans-serif;
+}
+
+.gif {
+  border-radius: 50%;
+  float: left;
+  height: 150px;
+  margin-right: 30px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.comp {
+  border-radius: 50%;
+  float: right;
+  height: 150px;
+  margin-left: 30px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+/* Bottom Container */
+.last-container {
+  background-color: #f5f0eb; /* Nude */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #434343; /* Dark Gray */
+  font-family: "Times New Roman", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #7e7e7e; /* Light Gray */
+  font-size: 1rem;
+  padding: 20px 0;
+}
